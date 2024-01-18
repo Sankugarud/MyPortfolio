@@ -12,8 +12,8 @@ const Projects = () => {
           title: "Next js Portfolio Website",
           description: "A Next.js Portfolio Website is a dynamic and efficient web platform built using the Next.js framework",
           image: "/images/projects/project2.jpg",
-          gitUrl: "/",
-          previewUrl: "/",
+          gitUrl: "https://github.com/Sankugarud/MyPortfolio",
+          previewUrl: "https://spiffy-biscochitos-e79f5b.netlify.app/",
         },
         {
           id: 2,

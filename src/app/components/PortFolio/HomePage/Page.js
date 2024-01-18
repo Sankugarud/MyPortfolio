@@ -8,7 +8,7 @@ import Image from 'next/image';
 const HomePage = () => {
   return (
     <div>
-         <section className="lg:py-2 px-20">
+         <section className="lg:py-2 px-5">
             <div className="grid grid-cols-1 sm:grid-cols-12">
               <motion.div
                 initial={{ opacity: 0, scale: 5 }}
@@ -16,11 +16,11 @@ const HomePage = () => {
                 transition={{ duration: 0.5 }}
                 className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
               >
-                <h1 className="text-white mb-4 lg:text-4xl lg:leading-normal font-extrabold">
-                  <span className="text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-500 via-indigo-700 to-blue-300">
+                <h1 className="text-white mb-4  lg:text-3xl lg:leading-normal font-extrabold">
+                  <span className="text-transparent text-5xl bg-clip-text bg-gradient-to-r from-purple-500 via-indigo-700 to-blue-300">
                     Hello, I&apos;m{" "}
                   </span>
-                  <br></br>
+                  <br className='py-5'></br>
                   <TypeAnimation
                     sequence={[
                       "Sanket Garud",
