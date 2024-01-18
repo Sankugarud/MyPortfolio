@@ -3,7 +3,7 @@ import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { TypeAnimation } from 'react-type-animation';
 import Image from 'next/image';
-import computer from '../../../../../public/Images/computer.png';
+import computer from '../../../../../public/images/computer.png';
 import { motion } from "framer-motion";
 
 import 'react-tabs/style/react-tabs.css'; 
